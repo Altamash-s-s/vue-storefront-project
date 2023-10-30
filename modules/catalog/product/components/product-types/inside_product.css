@@ -1,0 +1,109 @@
+/* .product.inside-product {
+    position: relative;
+}
+.inside-product .sf-gallery__stage {
+    max-width: 89%;
+}
+.inside-product .sf-gallery__thumbs {
+    display: -webkit-box;
+    position: absolute;
+    top: 39rem;
+    left: 4rem;
+    flex-wrap: wrap;
+    height: 150%;
+}
+.inside-product .sf-gallery__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.inside-product span.sf-image--wrapper.sf-gallery__thumb img {
+    width: 457px;
+    height: 463px;
+}
+.inside-product .sf-image--wrapper.sf-gallery__thumb img {
+    background-color: #dadada;
+    padding: 50px;
+}
+.inside-product .sf-image--wrapper.sf-gallery__big-image {
+    display: flex;
+    justify-content: center;
+}
+.inside-product .sf-image--wrapper.sf-gallery__big-image img {
+    width: 49%;
+}
+.inside-product .product__info {
+    margin-top: 65rem !important;
+    max-width: 95% !important;
+   
+
+}
+button.sf-button--pure.sf-gallery__item.sf-button {
+    opacity: 1;
+}
+.inside-product .glide.glide--ltr.glide--slider.glide--swipeable {
+    display: none;
+}
+.inside-product .product__description.desktop-only {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.inside-product iframe {
+    width: 100% !important;
+    max-width: 100%;
+    height: 582px;
+}
+#product {
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+.sf-breadcrumbs__list {
+    padding-left: 30px;
+} */
+
+
+
+
+.product.inside-product {
+    display: block !important;
+}
+.inside-product .loading--product-gallery  {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height:auto !important;
+}
+.inside-product .sf-gallery__stage {
+    display: none;
+}
+.inside-product .sf-gallery__thumbs {
+    width: 100%;
+    flex: auto;
+    display: block;
+    height: auto;
+    margin: 0;
+    margin-top: -5px;
+}
+.inside-product .sf-gallery__thumbs button {
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+    opacity: 1;
+    background: #ececec;
+    border: 1px solid #00000029;
+}
+.inside-product .sf-gallery__thumb img {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.inside-product  .product__info {
+    margin-top: 50px !important;
+    padding-left: 0 !important;
+    display: block;
+    margin: 0 auto !important;
+}
+.inside-product .product__header {
+    margin-top: 40px !important;
+}
